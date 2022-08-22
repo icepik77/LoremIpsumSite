@@ -1,5 +1,10 @@
 jQuery(function () {
 
+	//Меню бургер
+	$(".menu-burger").on("click", function () {
+        $('.menu-burger, .nav-mobile').toggleClass('active');
+    });
+
 	//Анимация цветов кнопки в шапке сайта купить и продать сейчас
 
 	let ButtonBuyNow = $('.ButtonBuyNow');
@@ -34,11 +39,11 @@ jQuery(function () {
 	});
 	// Анимация для скрывающегося списка 
 
-	$('.Stasistics').on('click', function () {
+	$('.services__stasistics').on('click', function () {
 		if (!$(this).hasClass('clicked')) { // если класса нет
 			$(this).addClass('clicked'); // добавляем класс
 			$(this).animate({
-				height: "240",
+				height: "300",
 				duration: "4000"
 			});
 			$('#Statisticshidetext').fadeIn(300);
@@ -54,11 +59,11 @@ jQuery(function () {
 
 		}
 	});
-	$('.Inbox').on('click', function () {
+	$('.services__inbox').on('click', function () {
 		if (!$(this).hasClass('clicked')) { // если класса нет
 			$(this).addClass('clicked'); // добавляем класс
 			$(this).animate({
-				height: "240",
+				height: "300",
 				duration: "4000"
 			});
 			$('#INBOXhidetext').fadeIn(300);
@@ -74,11 +79,11 @@ jQuery(function () {
 
 		}
 	});
-	$('.Team').on('click', function () {
+	$('.services__team').on('click', function () {
 		if (!$(this).hasClass('clicked')) { // если класса нет
 			$(this).addClass('clicked'); // добавляем класс
 			$(this).animate({
-				height: "240",
+				height: "300",
 				duration: "4000"
 			});
 			$('#TEAMhidetext').fadeIn(300);

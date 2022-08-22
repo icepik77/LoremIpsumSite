@@ -1,5 +1,8 @@
 jQuery(function(){
 
+
+	
+
 	//Анимация цветов кнопки в шапке сайта купить и продать сейчас
 
 	let ButtonBuyNow = $('.ButtonBuyNow');

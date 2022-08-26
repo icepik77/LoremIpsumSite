@@ -159,33 +159,33 @@ jQuery(function () {
 
 	FirstImage.on('click', function () {
 		$('.first-image').css({
-			'width': '196px',
-			'height': '179px',
+			'width': '156px',
+			'height': '129px',
 			'opacity': '1',
 			'transition': '1s',
 			'margin-top': '0px'
 		});
 		SecondImage.css({
-			'width': '116px',
-			'height': '115px',
+			'width': '56px',
+			'height': '55px',
 			'opacity': '0.4',
 			'transition': '1s',
 			'margin-top': '41px'
 		});
 		ThirdImage.css({
-			'width': '116px',
-			'height': '115px',
+			'width': '56px',
+			'height': '55px',
 			'opacity': '0.4',
 			'transition': '1s',
 			'margin-top': '41px'
 		});
-		$('.Our-Team__text-bottom-2').css({
+		$('.our-team__text-bottom-2').css({
 			'opacity': '0',
 		});
-		$('.Our-Team__text-bottom-3').css({
+		$('.our-team__text-bottom-3').css({
 			'opacity': '0',
 		});
-		$('.Our-Team__text-bottom-1').css({
+		$('.our-team__text-bottom-1').css({
 			'opacity': '1',
 			'transition': '1s'
 		});
@@ -194,33 +194,33 @@ jQuery(function () {
 
 	SecondImage.on('click', function () {
 		$('.second-image').css({
-			'width': '196px',
-			'height': '179px',
+			'width': '156px',
+			'height': '129px',
 			'opacity': '1',
 			'transition': '1s',
 			'margin-top': '0px'
 		});
 		FirstImage.css({
-			'width': '116px',
-			'height': '115px',
+			'width': '56px',
+			'height': '55px',
 			'opacity': '0.4',
 			'transition': '1s',
 			'margin-top': '41px'
 		});
 		ThirdImage.css({
-			'width': '116px',
-			'height': '115px',
+			'width': '56px',
+			'height': '55px',
 			'opacity': '0.4',
 			'transition': '1s',
 			'margin-top': '41px'
 		});
-		$('.Our-Team__text-bottom-1').css({
+		$('.our-team__text-bottom-1').css({
 			'opacity': '0',
 		});
-		$('.Our-Team__text-bottom-3').css({
+		$('.our-team__text-bottom-3').css({
 			'opacity': '0',
 		});
-		$('.Our-Team__text-bottom-2').css({
+		$('.our-team__text-bottom-2').css({
 			'opacity': '1',
 			'transition': '1s'
 		});
@@ -229,33 +229,33 @@ jQuery(function () {
 
 	ThirdImage.on('click', function () {
 		$('.third-image').css({
-			'width': '196px',
-			'height': '179px',
+			'width': '156px',
+			'height': '129px',
 			'opacity': '1',
 			'transition': '1s',
 			'margin-top': '0px'
 		});
 		FirstImage.css({
-			'width': '116px',
-			'height': '115px',
+			'width': '56px',
+			'height': '55px',
 			'opacity': '0.4',
 			'transition': '1s',
 			'margin-top': '41px'
 		});
 		SecondImage.css({
-			'width': '116px',
-			'height': '115px',
+			'width': '56px',
+			'height': '55px',
 			'opacity': '0.4',
 			'transition': '1s',
 			'margin-top': '41px'
 		});
-		$('.Our-Team__text-bottom-1').css({
+		$('.our-team__text-bottom-1').css({
 			'opacity': '0',
 		});
-		$('.Our-Team__text-bottom-2').css({
+		$('.our-team__text-bottom-2').css({
 			'opacity': '0',
 		});
-		$('.Our-Team__text-bottom-3').css({
+		$('.our-team__text-bottom-3').css({
 			'opacity': '1',
 			'transition': '1s'
 		});
